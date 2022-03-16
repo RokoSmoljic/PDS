@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="vjezba1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zad1_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad1_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="zad1_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zad2_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad2_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="zad2_test_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad3_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad4_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad4_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zad5_test_isim_beh.exe"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1647349661" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1647349661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1647427728" xil_pn:in_ck="4336624228179131799" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1647427728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zad1.v"/>
+      <outfile xil_pn:name="zad1_test.v"/>
+      <outfile xil_pn:name="zad2.v"/>
+      <outfile xil_pn:name="zad2_test.v"/>
+      <outfile xil_pn:name="zad3.v"/>
+      <outfile xil_pn:name="zad3_test.v"/>
+      <outfile xil_pn:name="zad4.v"/>
+      <outfile xil_pn:name="zad4_test.v"/>
+      <outfile xil_pn:name="zad5.v"/>
+      <outfile xil_pn:name="zad5_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1647427728" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5974467698068667194" xil_pn:start_ts="1647427728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1647427728" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1776696194430681736" xil_pn:start_ts="1647427728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1647351860" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4957594615004963335" xil_pn:start_ts="1647351860">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1647427728" xil_pn:in_ck="4336624228179131799" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1647427728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zad1.v"/>
+      <outfile xil_pn:name="zad1_test.v"/>
+      <outfile xil_pn:name="zad2.v"/>
+      <outfile xil_pn:name="zad2_test.v"/>
+      <outfile xil_pn:name="zad3.v"/>
+      <outfile xil_pn:name="zad3_test.v"/>
+      <outfile xil_pn:name="zad4.v"/>
+      <outfile xil_pn:name="zad4_test.v"/>
+      <outfile xil_pn:name="zad5.v"/>
+      <outfile xil_pn:name="zad5_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1647427732" xil_pn:in_ck="4336624228179131799" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8056754300645271859" xil_pn:start_ts="1647427728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+      <outfile xil_pn:name="zad1_test_beh.prj"/>
+      <outfile xil_pn:name="zad1_test_isim_beh.exe"/>
+    </transform>
+    <transform xil_pn:end_ts="1647427733" xil_pn:in_ck="6264880033009377345" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1150382425371448336" xil_pn:start_ts="1647427732">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="zad1_test_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>
